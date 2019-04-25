@@ -1,5 +1,5 @@
 FROM golang:1.8-alpine
-ADD . /go/src/coop
+ADD ./gospace/ /go/src/coop
 RUN go install coop
 
 FROM alpine:latest
